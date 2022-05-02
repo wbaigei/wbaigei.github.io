@@ -3,6 +3,11 @@
     src: url(./NotoSansSC-Light.otf);
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 :root {
     --themeColor: #88abfd;
     --background: #9dfdef;
@@ -317,4 +322,23 @@ button:hover {
 
 button * {
     font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right>div>a>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#fullscreenNav>div>a>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
